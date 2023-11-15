@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
   background-color: #bce3ed44;
   border-radius: 40px;
+=======
+  background-color: #31343544;
+  border-radius: 15px;
+>>>>>>> f361141 (v1)
 }
 
 .App-logo {
@@ -14,6 +19,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #115aeb;

@@ -57,8 +57,14 @@ function App() {
 
       <div className="App">
         <h1 style={{ color: "white" }}>Digi-Drive</h1>
+<<<<<<< HEAD
         <p style={{ color: "grey"}}>A Secure Decentralized Drive</p>
         <div className="bg"></div>
+=======
+        <h2 style={{ color: "grey"}}>Your personalised and secured drive.</h2>
+        <div className="bg"></div>
+        <div className="image">🌐</div>
+>>>>>>> f361141 (v1)
         <div className="bg bg2"></div>
         <div className="bg bg3"></div>
 

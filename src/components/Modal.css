@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .modalBackground {
     width: 100vw;
     height: 120vh;
@@ -84,4 +85,92 @@
   
   input[type="text"]:focus {
     background-color: rgb(157, 217, 237);
+=======
+.modalBackground {
+    width: 100vw;
+    height: 120vh;
+    background-color:rgba(155, 159, 159, 0.251);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 230px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, rgb(180, 144, 144) , rgb(154, 199, 251));
+    box-shadow: rgba(49, 50, 51, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer {
+    display: inline-block;
+    text-align: center;
+  }
+  .title {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 80px;
+    
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(222, 230, 241);
+    color: rgba(224, 132, 132, 0.907);
+    border-radius: 80px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: rgb(232, 26, 68);
+  }
+  .address {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 420px;
+    text-align: center;
+  }
+  
+  input[type="text"]:focus {
+    background-color: rgb(157, 217, 237);
+>>>>>>> f361141 (v1)
   }
