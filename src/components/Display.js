@@ -104,9 +104,11 @@ const Display = ({ contract, account }) => {
         placeholder="Enter Address"
         className="address"
       ></input>
-      <button className="center button" onClick={getdata}>
-        Get Images 
-      </button>
+      <div className="getter">
+          <button className="share1" role="button" onClick={getdata}>
+               Get Images 
+           </button>
+      </div>
     </>
   );
 };

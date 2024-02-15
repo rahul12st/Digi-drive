@@ -85,21 +85,21 @@ const Modal = ({ setModalOpen, contract }) => {
     <>
       <div className="modalBackground">
         <div className="modalContainer">
+        <div class="pattern-dots-md gray-light">
           <div className="title">Share with</div>
           <div className="body">
-            <input
-              type="text"
-              className="address"
-              placeholder="Enter Address"
-            ></input>
+          <div class="form__group field">
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">Name</label>
+</div>
           </div>
-          <form id="myForm">
+          <form id="dropdown">
             <select id="selectNumber">
               <option className="address">People With Access</option>
             </select>
           </form>
           <div className="footer">
-            <button
+            <button className="share" role="button"
               onClick={() => {
                 setModalOpen(false);
               }}
@@ -107,9 +107,10 @@ const Modal = ({ setModalOpen, contract }) => {
             >
               Cancel
             </button>
-            <button onClick={() => sharing()}>Share</button>
+            <button className="share" role="button" onClick={() => sharing()}>Share</button>
+           
           </div>
-        </div>
+        </div></div>
       </div>
     </>
   );

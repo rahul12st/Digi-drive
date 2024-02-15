@@ -8,7 +8,9 @@
   border-radius: 15px;
 >>>>>>> f361141 (v1)
 }
-
+.text-pattern{
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -45,9 +47,18 @@
   }
 }
 h1{
-  font-size: 65px;
-  font-family: 'cursive';
+  overflow: auto;
+
+  font-size: 180px;
+  font-family: "Comfortaa", sans-serif;
+  color: #3ded97;
 }
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 67px; /* Adjust the font size for smaller screens */
+  }
+}
+
 .share{
   position: relative;
   left : 20px;
@@ -61,4 +72,82 @@ h1{
 }
 .share:hover {
   opacity: 0.8;
+}
+/* .h3{
+  font-size: 100px;
+} */
+
+
+/* CSS */
+.share {
+  background: #3ded97;
+  border: 2px solid #466d1d;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.share:hover,
+.share:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #a1cbd8;
+}
+
+.share:active {
+  opacity: .5;
+}
+
+.share1 {
+  
+  background: #3ded97;
+  border: 2px solid #466d1d;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.share1:hover,
+.share1:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #a1cbd8;
+}
+
+.share1:active {
+  opacity: .5;
 }

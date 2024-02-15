@@ -47,7 +47,7 @@ function App() {
   return (
     <>
       {!modalOpen && (
-        <button className="share" onClick={() => setModalOpen(true)}>
+        <button className="share" role="button" onClick={() => setModalOpen(true)}>
           Share
         </button>
       )}
@@ -56,12 +56,24 @@ function App() {
       )}
 
       <div className="App">
+<<<<<<< HEAD
         <h1 style={{ color: "white" }}>Digi-Drive</h1>
 <<<<<<< HEAD
         <p style={{ color: "grey"}}>A Secure Decentralized Drive</p>
         <div className="bg"></div>
 =======
         <h2 style={{ color: "grey"}}>Your personalised and secured drive.</h2>
+=======
+      <div class="pattern-dots-md gray-light">
+      
+
+    <h1>Digi-Drive</h1>
+
+  
+
+
+        <h2 style={{ color: "#466d1d"}}>Your personalised and secured drive.</h2>
+>>>>>>> f658232 (v2)
         <div className="bg"></div>
         <div className="image">🌐</div>
 >>>>>>> f361141 (v1)
@@ -77,6 +89,7 @@ function App() {
           contract={contract}
         ></FileUpload>
         <Display contract={contract} account={account}></Display>
+        </div>
       </div>
     </>
   );

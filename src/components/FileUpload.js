@@ -213,7 +213,7 @@ const FileUpload = ({ contract, account, provider }) => {
   return (
     <div className="top">
       <form className="form" onSubmit={handleSubmit}>
-        <label htmlFor="file-upload" className="choose">
+        <label htmlFor="file-upload" className="share">
           Choose Image
         </label>
         <input
@@ -223,13 +223,17 @@ const FileUpload = ({ contract, account, provider }) => {
           name="data"
           onChange={retrieveFile}
         />
-        
-        <button type="submit" className="upload" disabled={!file}>
+        <div>
+        <button type="submit" className="share" role="button" disabled={!file}>
           Upload 
-        </button>
+        </button></div>
         
       </form>
-      <div><div></div></div>
+      <div><div></div></div><div> </div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
       <span className="textArea">Image: {fileName}</span>
     
     </div>

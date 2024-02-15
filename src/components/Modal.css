@@ -89,7 +89,8 @@
 .modalBackground {
     width: 100vw;
     height: 120vh;
-    background-color:rgba(155, 159, 159, 0.251);
+    backdrop-filter: blur(3px); /* Adjust the blur amount as needed */
+  background: #1c2e4a,9.4;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -99,9 +100,10 @@
   
   .modalContainer {
     width: 500px;
-    height: 230px;
+    height: 240px;
     border-radius: 12px;
-    background-image: linear-gradient(to right, rgb(180, 144, 144) , rgb(154, 199, 251));
+   background-color: #3ded97;
+   
     box-shadow: rgba(49, 50, 51, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
@@ -171,6 +173,72 @@
   }
   
   input[type="text"]:focus {
+<<<<<<< HEAD
     background-color: rgb(157, 217, 237);
 >>>>>>> f361141 (v1)
   }
+=======
+    background-color: rgb(171, 224, 206);
+  }
+  /* Style for the dropdown container */
+  .form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+    
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #466d1d;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #466d1d;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  
+>>>>>>> f658232 (v2)
