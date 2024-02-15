@@ -1,13 +1,12 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   background-image: url('v904-nunny-004.jpg');
-=======
+
   background-color: #252525fd;
->>>>>>> f361141 (v1)
-=======
+
+
   background: #15223b;
->>>>>>> f658232 (v2)
+
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,11 +27,11 @@ code {
 footer {
   text-align: center;
   padding: 3px;
-<<<<<<< HEAD
+
   background-color: rgba(250, 247, 247, 0.216);
-=======
+
   background-color: rgba(49, 47, 47, 0.216);
->>>>>>> f361141 (v1)
+
   color: white;
   border-radius: 12px;
 }
@@ -50,15 +49,13 @@ footer {
 }
 
 .topnav {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   background-color: #c175ff86 ;
-=======
+
   background-color: rgba(59, 58, 58, 0.216) ;
->>>>>>> f361141 (v1)
-=======
+
   background-color: #3ded97 ;
->>>>>>> f658232 (v2)
+
   overflow: hidden;
   border-radius: 15px ;
 }
