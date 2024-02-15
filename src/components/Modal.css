@@ -195,7 +195,7 @@
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
     font-size: 1.3rem;
-    color: #fff;
+    color: #dad6d6;
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
@@ -205,9 +205,9 @@
     
   }
   .form__field:placeholder-shown ~ .form__label {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     cursor: text;
-    top: 20px;
+    top: 19px;
   }
   
   .form__label {
