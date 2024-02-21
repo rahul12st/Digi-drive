@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.021da571.css",
+    "main.js": "/static/js/main.cad5261e.js",
+    "static/js/496.cf873d78.chunk.js": "/static/js/496.cf873d78.chunk.js",
+    "static/media/v904-nunny-004.jpg": "/static/media/v904-nunny-004.ab00cef445aa22c088df.jpg",
+    "index.html": "/index.html",
+    "main.021da571.css.map": "/static/css/main.021da571.css.map",
+    "main.cad5261e.js.map": "/static/js/main.cad5261e.js.map",
+    "496.cf873d78.chunk.js.map": "/static/js/496.cf873d78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.021da571.css",
+    "static/js/main.cad5261e.js"
+  ]
+}
